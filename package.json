@@ -1,0 +1,38 @@
+{
+  "name": "FAMmanga",
+  "version": "1.0.0",
+  "description": "Manga Reading Website with Nuxt 3",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@pinia/nuxt": "^0.11.3",
+    "@types/multer": "^2.0.0",
+    "bcrypt": "^6.0.0",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.0.2",
+    "mysql2": "^3.16.3",
+    "pinia": "^2.3.0",
+    "sweetalert2": "^11.26.18",
+    "vuetify": "^4.0.0-beta.1"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^3.1.1",
+    "@types/bcrypt": "^5.0.2",
+    "@types/jsonwebtoken": "^9.0.8",
+    "@types/node": "^22.10.5",
+    "nuxt": "^4.3.1",
+    "sass": "^1.87.0",
+    "typescript": "^5.7.3",
+    "vite-plugin-vuetify": "^2.0.5",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  }
+}
